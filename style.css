@@ -325,10 +325,6 @@ h2 {
   width: 100%;
 }
 
-.copyright {
-  color: #fff;
-  background-color: #0F0F1F;
-}
 
 .delay-half {
   -animation-delay: 0.5s;
@@ -523,6 +519,47 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+
+.contact-me{
+    padding: 25px 0;
+    border-top: 1px solid #dbdbdb;
+    background-color: #050520;
+}
+
+.contact-me h3{
+	color: #fff;
+	font-weight: 300;
+}
+
+.contact-me h5{
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.contact-me h5 i{
+    padding: 5px 10px;
+}
+
+.contact-me h5 a{
+    color: #0288D1;
+}
+
+.contact-me h5 a:hover{
+    text-decoration: none;
+    color: #03A9F4;
+}
+
+.contact-me p{
+    color: #A8A8A8;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.contact-me .copyright{
+    margin-top: 10px;
+    color: #A8A8A8;
 }
 
 /*-------------------------------------------------------------------------*/
