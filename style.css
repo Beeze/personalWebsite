@@ -27,6 +27,34 @@ h1 {
   margin-bottom: 10px;
 }
 
+hr.small {
+    max-width: 150px;
+}
+
+hr.long {
+    max-width: 400px;
+}
+
+.about, .posts{
+	padding: 40px 0px 50px 0px;
+}
+
+.about h2 {
+    color: #000;
+    font-weight: 300;
+}
+
+.about p, .posts p{
+    color: #000;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+}
+
 canvas {
   display: block;
   height: 138%;
@@ -245,7 +273,7 @@ h2 {
 .section {
   clear: both;
   margin: 0px;
-  padding: 0px;
+  padding: 2px;
 }
 
 .group:before, .group:after {
@@ -327,7 +355,7 @@ h2 {
   padding: 30px;
 }
 
-#footer {
+#social {
   text-align: center;
 }
 
@@ -400,9 +428,46 @@ h2 {
     padding: 0px;
   }
 
-  #footer {
+  #social {
     text-align: left;
   }
+}
+
+.projects{
+    padding: 50px 0;
+}
+
+.projects .item {
+    padding: 5px 10px;
+    margin: 0 -10px;
+}
+
+.projects .item2 {
+    padding: 14px 10px;
+    margin: 0 -15px;
+}
+
+.projects .item:hover, .projects .item2:hover{
+    background-color: #F8F8F8 ;
+    cursor: pointer;
+}
+
+.projects .item a img{
+	border: 1px solid #dbdbdb;
+}
+
+.projects .item p{
+  padding-top: 5px;
+}
+
+.modal-title{
+    font-weight: 300;
+}
+
+.content-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 /*-------------------------------------------------------------------------*/
