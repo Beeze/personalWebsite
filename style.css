@@ -9,6 +9,17 @@ html {
   background: linear-gradient(#000005, #050520);
 }
 
+.header-button{
+	border-radius: 0;
+	border-width: 2px;
+	border-color: #fff;
+	color: #fff;
+	background-color: rgb(255,255,255, 0.0);
+	margin: 0px 5px;
+	font-weight: 300;
+	width: 100px;
+}
+
 h1 {
   color: #ffffff;
   font-size: 90px;
@@ -149,7 +160,6 @@ p {
 }
 
 a {
-  border-bottom: 1px dotted;
   color: #C5C5D6;
   text-decoration: none;
 }
@@ -168,10 +178,19 @@ body {
 #header {
   background-color: #0F0F1F;
   overflow: hidden;
-  padding-bottom: 20px;
+  /*padding-bottom: 60px;*/
   position: relative;
   z-index: 1;
 }
+
+.social-media-icons i {
+  	padding: 14px 10px;
+}
+
+.social-media-icons a {
+  text-decoration: none	
+}
+
 
 h1 {
   color: #ffffff;
@@ -226,7 +245,7 @@ h2 {
 .section {
   clear: both;
   margin: 0px;
-  padding: 20px;
+  padding: 0px;
 }
 
 .group:before, .group:after {
@@ -280,6 +299,18 @@ h2 {
   -webkit-animation-delay: 1s;
 }
 
+.delay-one-half {
+  -animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+
+.delay-two {
+  -animation-delay: 2.0s;
+  -moz-animation-delay: 2.0s;
+  -webkit-animation-delay: 2.0s;
+}
+
 .inlist li {
   display: inline;
   font-size: 20px;
@@ -289,6 +320,11 @@ h2 {
   content: '\2022';
   font-size: 20px;
   padding: 0 5px;
+}
+
+.midbuttons {
+  text-align: center;
+  padding: 30px;
 }
 
 #footer {
@@ -367,4 +403,21 @@ h2 {
   #footer {
     text-align: left;
   }
+}
+
+/*-------------------------------------------------------------------------*/
+.hvr-bounce-to-top:before {
+    background: white;
+}
+
+.hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
+    color: black;
+}
+
+.hvr-bounce-to-right:before {
+    background: white; 
+}
+
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+    color: black;
 }
