@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
  		<div id="cvas">
     		<canvas id="c"></canvas>
    			<div id="light"></div>
@@ -40,7 +41,7 @@
           <div class="midbuttons animated fadeInDown delay-one-half">
               <a href="http://resume.bilalmajeed.com" class="header-button hvr-bounce-to-top btn btn-lg">Resume</a>
               
-              <a href="#social" class="header-button hvr-bounce-to-top btn btn-lg page-scroll">About</a>
+              <a href="#social" class="header-button hvr-bounce-to-top btn btn-lg">About</a>
               
               <a href="#projects" class="header-button hvr-bounce-to-top btn btn-lg">Projects</a>
           </div>
@@ -57,7 +58,7 @@
                   <i class="fa fa-twitter fa-2x hvr-pop" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i>
               </a>
               
-              <a href="https://github.com/bilalmajeed" target="_blank">
+              <a href="https://github.com/aking13" target="_blank">
                   <i class="fa fa-github fa-2x hvr-pop" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i>
               </a>
               
@@ -78,12 +79,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 text-center wow fadeInUp animated">
-                <img src="header.jpg" alt="Picture of Me!" class="img-thumbnail profile-pic img-circle">
+                <img src="res/images/header.jpg" alt="Picture of Me!" class="img-thumbnail profile-pic img-circle">
                     <h2>About Me</h2>
                     <hr class="small">
                     <p id="text"></p>
-                    <p style=" visibility: visible; animation-name: fadeInUp">My name is Alona King. I am a full stack web and mobile application developer, hacker hobbyist and visual design enthusiast. I attend Stanford University, where I am pursuing my Bachelor's degree in Computer Science.</p>
-                    <p>Currently, I am seeking an internship for Summer 2016. I am excited most by opportunities where I can learn while also building new, exciting products that help make the world a better place. In my free time I enjoy longboarding down gnarly hills, binge watching sports, studying Italian and nerding out with technology. Have a cup of coffee with me and let's chat about everything from web development to Raspberry Pis to the NBA Championships and more!</p>
+                    <p style=" visibility: visible; animation-name: fadeInUp">My name is Alona King. I am a full stack web and mobile application developer, hacker hobbyist and visual design enthusiast. Currently, I attend Stanford University and am pursuing a Bachelor's degree in Computer Science. I am a junior seeking a software engineering internship for Summer 2016. </p>
+                    <p>I am excited most by opportunities where I can learn while also building new, exciting products that help make the world a better place. In my free time I enjoy longboarding down gnarly hills, binge watching sports, creative writing, studying Italian and nerding out with technology. Have a cup of coffee with me and let's chat about everything from web development to Raspberry Pis to the NBA Championships and more!</p>
                     </div>
         </div>
     </div>
@@ -91,7 +92,8 @@
 <!-- Projects -->
 <div id="projects" class="projects-title">
     <div class="text-vertical-center text-center">
-        <h2>Projects</h2>
+        <h2>Recent Projects</h2>
+        <hr class="small">
     </div>
 </div>
 
@@ -100,23 +102,23 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="col-md-3">
-                    <div id="bt-switch" class="item hvr-underline-from-left" data-toggle="modal" data-target="#btSwitch">
-                        <img class="img-responsive" src="res/images/btSwitch/frontpage.jpg">
-                            <p>Smart Switch</p>
+                    <div id="smart-gen" class="item hvr-underline-from-left" data-toggle="modal" data-target="#smartGen">
+                        <img class="img-responsive" src="res/images/smartGenHome.jpg">
+                            <p>SmartGen</p>
                             </div>
                 </div>
                 
                 <div class="col-md-3">
                     <div id="bt-car" class="item hvr-underline-from-left" data-toggle="modal" data-target="#btCar">
-                        <img class="img-responsive" src="res/images/btCar/frontpage.jpg" >
-                            <p>Bluetooth RC Car</p>
+                        <img class="img-responsive" src="res/images/haptic2.jpg" >
+                            <p>Haptic Touch</p>
                             </div>
                 </div>
                 
                 <div class="col-md-3">
-                    <div id="bullet-bomber" class="item hvr-underline-from-left" data-toggle="modal" data-target="#BulletBomber">
-                        <img class="img-responsive" src="res/images/bb/frontpage.jpg">
-                            <p>C++ Game - Bullet Bomber</p>
+                    <div id="bloc-co" class="item hvr-underline-from-left" data-toggle="modal" data-target="#blocCo">
+                        <img class="img-responsive" src="res/images/blocLogo2wash.jpg">
+                            <p>ourbloc.co</p>
                             </div>
                 </div>
                 
@@ -133,12 +135,12 @@
 </div>
 
 <!-- BLUETOOTH CONTROLED LAMP - PROJECT -->
-<div class="modal fade" id="btSwitch" tabindex="-1" role="dialog" aria-labelledby="btSwitch" aria-hidden="true">
+<div class="modal fade" id="smartGen" tabindex="-1" role="dialog" aria-labelledby="smartGen" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Smart Switch</h4>
+                <h4 class="modal-title" id="myModalLabel">SmartGen</h4>
             </div>
             <div class="modal-body">
                 <h3>Overview</h3>
@@ -189,19 +191,19 @@
 </div>
 
 <!-- C++ COMPUTER GAME -->
-<div class="modal fade" id="BulletBomber" tabindex="-1" role="dialog" aria-labelledby="BulletBomber" aria-hidden="true">
+<div class="modal fade" id="blocCo" tabindex="-1" role="dialog" aria-labelledby="blocCo" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">C++ Game - Bullet Bomber</h4>
+                <h4 class="modal-title" id="myModalLabel">ourbloc.co</h4>
             </div>
             <div class="modal-body">
                 <h3>Overview</h3>
                 <p>Part of a school year end project, this is a C++ graphical computer game based off the the classical game
                 of space invaders, with interesting twists and unique features. Bomber ships are coming at you and you must
                 destory them before they hit you or get past you.</p>
-                <p>Developers: Bilal Majeed and Ivan Neveski</p>
+                <p>Developers: Alona King</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -221,17 +223,21 @@
             </div>
             <div class="modal-body">
                 <h3>Overview</h3>
-                <p>In order to showcase and track my achievements in the tech world I created this website from complete sratch. I created this website over many days with minimal tweak happening on a day to day basis. Programmed in HTML5, CSS, PHP using the latest and most popular libraries this website is perfect representation of my web development abilities</p>
-                <p>Developers: Bilal Majeed</p>
+                <p>In order to showcase and track my achievements in the tech world I created this website from complete sratch. I created this website in a day. Programmed in HTML5, CSS, Javascript using the latest and most popular libraries such as Bootstrap and Wow.js, this website is just another representation of my versatile web development and design abilities. While the bulk of the work is finished, I will continuously be tweaking and updating the site.</p>
+                <p>Developers: Alona King</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <a href="https://github.com/bilalmajeed/Bullet_Bomber" target="_blank" type="button" class="btn btn-primary pull-left">Source</a>
+                <a href="" target="_blank" type="button" class="btn btn-primary pull-left">Source</a>
             </div>
         </div>
     </div>
+    
 </div>
 <p class="copyright text-center">Copyright &copy; Alona King 2015</p>
+<a href="#top" class="fa fa-caret-square-o-up" style="font-size: 30px; position:fixed;
+    bottom:30px;
+    right:30px"></a>
 
 
 
@@ -241,9 +247,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
   <!-- Scrolling Nav JavaScript -->
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/scrolling-nav.js"></script>
+
+   <script src="js/page-scroll.js"></script>
   <!-- Scrolling Nav End -->
+  
+  
+  
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
