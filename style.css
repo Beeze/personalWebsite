@@ -444,6 +444,21 @@ h2 {
   }
 }
 
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+
+.carousel-caption {
+   bottom: 1px !important;
+}
+
+.carousel-caption p{
+   color: #000;
+}
+
 .projects-title{
     padding-top: 8%;
     display: table;
@@ -525,7 +540,9 @@ h2 {
 .contact-me{
     padding: 25px 0;
     border-top: 1px solid #dbdbdb;
-    background-color: #050520;
+
+/*    background-color: #050520; */
+    background: linear-gradient(#000005, #0b0b4c);
 }
 
 .contact-me h3{
