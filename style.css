@@ -10,6 +10,107 @@ html {
 }
 
 
+/*Menu Button Styles*/
+.menu-btn{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+  	border-radius: 0;
+  	border-width: 2px;
+  	border-color: #fff;
+  	color: #fff;
+  	background-color: rgb(255,255,255, 0.0);
+  	margin: 0px 10px;
+    font-family: 'Raleway', sans-serif;
+  	font-weight: 300;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+  	color: #000;
+    background-color: #fff;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/*Menu drawer styles*/
+
+.menu-close{
+    width: 100%;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #404040;
+}
+
+.sidebar{
+	z-index: 2;
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	left: -250px;
+	background: #222;
+}
+
+.sidebar ul{
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li{
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.space {
+    padding-top: 10px;
+}
+
+.line {
+    border-top: 1px solid #404040;
+}
+
+.sidebar li a{
+	display: block;
+	text-decoration: none;
+	color: #999;
+}
+
+.sidebar li a:hover{
+	text-decoration: none;
+	color: #fff;
+	background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.header-container {
+}
 
 .header-button{
 	border-radius: 0;
@@ -210,7 +311,7 @@ body {
   overflow: hidden;
   /*padding-bottom: 60px;*/
   position: relative;
-  z-index: 1;
+  z-index: .99999;
 }
 
 #photo {
